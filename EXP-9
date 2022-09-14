@@ -1,0 +1,8 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `proc4`()
+BEGIN
+declare name varchar(10);
+declare str varchar(20);
+set name=' world';
+set str=concat('hello',name);
+select str;
+END
